@@ -1,0 +1,136 @@
+body{
+    margin-top: 140px;
+    margin-left: 10px;
+    padding: 0;
+    width: 100%;
+}
+
+.body-home{
+    background-image: url(images/photo-1521185496955-15097b20c5fe.avif);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*================ HEADER ============*/
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.header img{
+    display: block;
+    margin: auto;
+    height: 70px;
+    padding-top: 15px;
+}
+
+/*================ BUTTON ============*/
+
+.button{
+    background-color: #EB860D;
+    display: block;
+    width: 35%;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.button2{
+    background-color: #ff8c00;
+    display: block;
+    width: 35%;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    color: white;
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/*================ H ============*/
+
+h4 {
+    background-color: rgba(255,255,255,0.5);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 350px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: #EB660D;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #EB860D;
+    margin-bottom: 10px;
+}
+
+
+/*================ FORM ============*/
+#input{
+    width: 25%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #EB860D
+}
+
+textarea{
+    width: 25%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #EB860D
+}
+
+p{
+    text-align: center;
+}
+
+/*========== RESPONSIVE LAYOUT ==========*/
+
+@media only screen and (min-width:600px){
+    .body-home{
+        background-image: url(images/photo-1521185496955-15097b20c5fe.avif);
+    }
+
+}
+
+@media only screen and (min-width:720px){
+    .body-home{
+        background-image: url(images/photo-1521185496955-15097b20c5fe.avif);
+    }
+
+}
+
+@media only screen and (min-width:1000px){
+    .body-home{
+        background-image: url(images/photo-1521185496955-15097b20c5fe.avif);
+    }
+
+}
+
+@media only screen and (min-width:1500px){
+    .body-home{
+        background-image: url(images/photo-1521185496955-15097b20c5fe.avif);
+    }
+
+}
